@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contador de Monedas</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/skeleton.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+  <body>
+    <div id="contenido">
+      <div class="container">
+     
+
+        <h1> Contador de Monedas</h1>
+        <br><br>
+        <div class="row">
+          <div class="six columns">
+            <form action="option">
+              <h3 id="forma" style="display: inline-block" for="materia">
+                Cantidad
+              </h3>
+
+              <div id="agregar-materias"></div>
+
+              <select style="display: block" id="cantidad">
+                <option value=".5">50¢</option>
+                <option value="1">1$</option>
+                <option value="2">2$</option>
+                <option value="5">5$</option>
+                <option value="10">10$</option>
+              </select>
+            </form>
+            <button id="agregar"> Agregar </button>
+          </div>
+        </div>
+        <br>
+        <h3> Monedas Agregadas </h3>
+
+        <div id="registro"></div>
+
+        <div id="total"></div>
+        
+        <br><br>
+        <button id="limpiar"> Limpiar Registro </button>
+
+
+    </div>
+    </div>
+    <!--#contenido-->
+
+    <script type="module" src="assets/js/app.js"></script>
+  </body>
+</html>
